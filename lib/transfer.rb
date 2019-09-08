@@ -22,10 +22,9 @@ attr_accessor :sender, :receiver, :amount, :status
     # elsif 
     #     @status == "complete"
     #     "Transaction was already excuted"
-    else
-        #self.valid? == false
+  else
         @status= "rejected"
-        #puts "Transaction rejected. Please check your account balance."
+        "Transaction rejected. Please check your account balance."
     end
   end
   
