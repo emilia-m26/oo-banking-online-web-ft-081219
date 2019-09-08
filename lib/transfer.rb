@@ -19,9 +19,6 @@ attr_accessor :sender, :receiver, :amount, :status
         @receiver.balance += @amount
         @sender.balance -= @amount
         @status = "complete"
-    # elsif 
-    #     @status == "complete"
-    #     "Transaction was already excuted"
   else
         @status= "rejected"
         "Transaction rejected. Please check your account balance."
